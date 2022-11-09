@@ -1,0 +1,236 @@
+{% load static %}
+{% load i18n %}
+
+<div id="main-wrapper">
+    <div class="site-wrapper-reveal">
+        <!--========= Pricing Table Area Start ==========-->
+        <div class="pricing-table-area section-space--ptb_100 bg-gray">
+            <div class="pricing-table-title-area position-relative">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title-wrapper text-center section-space--mb_40 wow move-up">
+                                <h6 class="section-sub-title mb-20">{% trans 'Veb sayt yaratish xizmati narxlari' %}</h6>
+                                <h3 class="section-title">{% trans 'Siz uchun hamyonbop narxdagi' %} <span
+                                        class="text-color-primary"> {% trans 'Veb Saytlar' %}</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-table-content-area">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-12 text-center wow move-up">
+                            <ul class="nav justify-content-center ht-plans-menu  section-space--mb_60" role="tablist">
+                                <li class="tab__item nav-item active">
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#month-tab" role="tab"
+                                       aria-selected="true">{% trans 'Kichik loyihalar' %}</a>
+                                </li>
+                                <li class="tab__item nav-item ">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#year-tab" role="tab"
+                                       aria-selected="false">{% trans 'Katta loyihalar' %}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tab-content ht-tab__content wow move-up">
+                        <div class="tab-pane fade show active" id="month-tab" role="tabpanel">
+                            <div class="row pricing-table-one">
+                                <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table">
+                                    <div class="pricing-table__inner">
+                                        <div class="pricing-table__header">
+                                            <h6 class="sub-title">LANDING PAGE</h6>
+                                            <div class="pricing-table__price-wrap">
+                                                <h6 class="currency">$</h6>
+                                                <h6 class="price">190</h6>
+                                            </div>
+                                        </div>
+                                        <div class="pricing-table__body">
+                                            <div class="pricing-table__footer">
+                                                <a href="{% url 'contact' %}"
+                                                   class="ht-btn ht-btn-md ht-btn--outline">{% trans 'Malumot olish' %}</a>
+                                            </div>
+                                            <ul class="pricing-table__list text-left">
+                                                <li>{% trans 'Domen UZ' %}</li>
+                                                <li>{% trans 'Xosting 25 GB' %}</li>
+                                                <li>{% trans 'SSL sertifikat' %}</li>
+                                                <li>{% trans 'Adminka' %}</li>
+                                                <li>{% trans 'Ximoya 24/7' %}</li>
+                                                <li>{% trans 'Muddati 3 kun' %}</li>
+                                                <li>{% trans 'Sahifalar soni 1 ta' %}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table pricing-table--popular">
+                                    <div class="pricing-table__inner">
+                                        <div class="pricing-table__feature-mark">
+                                            <span>{% trans 'Eng yaxshi' %}</span>
+                                        </div>
+                                        <div class="pricing-table__header">
+                                            <h6 class="sub-title">{% trans 'SAYT KATALOG' %}</h6>
+                                            <div class="pricing-table__price-wrap">
+                                                <h6 class="currency">$</h6>
+                                                <h6 class="price">440</h6>
+                                            </div>
+                                        </div>
+                                        <div class="pricing-table__body">
+                                            <div class="pricing-table__footer">
+                                                <a href="{% url 'contact' %}"
+                                                   class="ht-btn  ht-btn-md ">{% trans 'Malumot olish' %}</a>
+                                            </div>
+                                            <ul class="pricing-table__list text-left">
+                                                <li>{% trans 'Domen UZ' %}</li>
+                                                <li>{% trans 'Xosting 25 GB' %}</li>
+                                                <li>{% trans 'SSL sertifikat' %}</li>
+                                                <li>{% trans 'Adminka' %}</li>
+                                                <li>{% trans 'Ximoya 24/7' %}</li>
+                                                <li>{% trans 'Muddati 5-10 kun' %}</li>
+                                                <li>{% trans 'Sahifalar soni 3-6 ta' %}</li>
+                                                <li>{% trans 'Tillar UZ/RU/EN' %}</li>
+                                                <li>{% trans 'Dizayn darajasi' %} <span
+                                                        class="featured">{% trans 'Yuqori' %}</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table">
+                                    <div class="pricing-table__inner">
+                                        <div class="pricing-table__header">
+                                            <h6 class="sub-title">{% trans 'SAYT VIZITKA' %}</h6>
+                                            <div class="pricing-table__price-wrap">
+                                                <h6 class="currency">$</h6>
+                                                <h6 class="price">310</h6>
+                                            </div>
+                                        </div>
+                                        <div class="pricing-table__body">
+                                            <div class="pricing-table__footer">
+                                                <a href="{% url 'contact' %}"
+                                                   class="ht-btn ht-btn-md ht-btn--outline">{% trans 'Malumot olish' %}</a>
+                                            </div>
+                                            <ul class="pricing-table__list text-left">
+                                                <li>{% trans 'Domen UZ' %}</li>
+                                                <li>{% trans 'Xosting 25 GB' %}</li>
+                                                <li>{% trans 'SSL sertifikat' %}</li>
+                                                <li>{% trans 'Adminka' %}</li>
+                                                <li>{% trans 'Ximoya 24/7' %}</li>
+                                                <li>{% trans 'Muddati 3-7 kun' %}</li>
+                                                <li>{% trans 'Sahifalar soni 2-4 ta' %}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="year-tab" role="tabpanel">
+
+                            <div class="row pricing-table-one">
+                                <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table">
+                                    <div class="pricing-table__inner">
+                                        <div class="pricing-table__header">
+                                            <h6 class="sub-title">{% trans 'Biznes' %}</h6>
+                                            <div class="pricing-table__price-wrap">
+                                                <h6 class="currency">$</h6>
+                                                <h6 class="price">790</h6>
+                                            </div>
+                                        </div>
+                                        <div class="pricing-table__body">
+                                            <div class="pricing-table__footer">
+                                                <a href="{% url 'contact' %}"
+                                                   class="ht-btn ht-btn-md ht-btn--outline">{% trans 'Malumot olish' %}</a>
+                                            </div>
+                                            <ul class="pricing-table__list text-left">
+                                                <li>{% trans 'Domen UZ' %}</li>
+                                                <li>{% trans 'Xosting 25 GB' %}</li>
+                                                <li>{% trans 'SSL sertifikat' %}</li>
+                                                <li>{% trans 'Adminka' %}</li>
+                                                <li>{% trans 'Ximoya 24/7' %}</li>
+                                                <li>{% trans 'Sahifalar soni 5-10 ta' %}</li>
+                                                <li>{% trans 'Muddati 15 kun' %}</li>
+                                                <li>{% trans 'Tillar UZ/RU/EN' %}</li>
+                                                <li>{% trans 'Dizayn darajasi' %} <span
+                                                        class="featured">{% trans 'Yuqori' %}</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table pricing-table--popular">
+                                    <div class="pricing-table__inner">
+                                        <div class="pricing-table__feature-mark">
+                                            <span>{% trans 'Eng yaxshi' %}</span>
+                                        </div>
+                                        <div class="pricing-table__header">
+                                            <h6 class="sub-title">{% trans 'Onlayn Do`kon' %}</h6>
+                                            <div class="pricing-table__price-wrap">
+                                                <h6 class="currency">$</h6>
+                                                <h6 class="price">1190</h6>
+                                            </div>
+                                        </div>
+                                        <div class="pricing-table__body">
+                                            <div class="pricing-table__footer">
+                                                <a href="{% url 'contact' %}"
+                                                   class="ht-btn  ht-btn-md ">{% trans 'Malumot olish' %}</a>
+                                            </div>
+                                            <ul class="pricing-table__list text-left">
+                                                <li>{% trans 'Domen UZ' %}</li>
+                                                <li>{% trans 'Xosting 25 GB' %}</li>
+                                                <li>{% trans 'SSL sertifikat' %}</li>
+                                                <li>{% trans 'Adminka' %}</li>
+                                                <li>{% trans 'Ximoya 24/7' %}</li>
+                                                <li>{% trans 'Sahifalar soni 20 ta' %}</li>
+                                                <li>{% trans 'Muddati 20 kun' %}</li>
+                                                <li>{% trans 'Xarid Savati' %}</li>
+                                                <li>{% trans 'Mijozlarni ro`yxatdan o`tkazish' %}</li>
+                                                <li>{% trans 'Tillar UZ/RU/EN' %}</li>
+                                                <li>{% trans 'Dizayn darajasi' %} <span
+                                                        class="featured">{% trans 'Yuqori' %}</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table">
+                                    <div class="pricing-table__inner">
+                                        <div class="pricing-table__header">
+                                            <h6 class="sub-title">{% trans 'Katta Biznes' %}</h6>
+                                            <div class="pricing-table__price-wrap">
+                                                <h6 class="currency">$</h6>
+                                                <h6 class="price">990</h6>
+                                            </div>
+                                        </div>
+                                        <div class="pricing-table__body">
+                                            <div class="pricing-table__footer">
+                                                <a href="{% url 'contact' %}"
+                                                   class="ht-btn ht-btn-md ht-btn--outline">{% trans 'Malumot olish' %}</a>
+                                            </div>
+                                            <ul class="pricing-table__list text-left">
+                                                <li>{% trans 'Domen UZ' %}</li>
+                                                <li>{% trans 'Xosting 25 GB' %}</li>
+                                                <li>{% trans 'SSL sertifikat' %}</li>
+                                                <li>{% trans 'Adminka' %}</li>
+                                                <li>{% trans 'Ximoya 24/7' %}</li>
+                                                <li>{% trans 'Sahifalar soni 15 ta' %}</li>
+                                                <li>{% trans 'Muddati 15 kun' %}</li>
+                                                <li>{% trans 'Tillar UZ/RU/EN' %}</li>
+                                                <li>{% trans 'Dizayn darajasi' %} <span
+                                                        class="featured">{% trans 'Yuqori' %}</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--========= Pricing Table Area End ==========-->
+
+        {% block contact_page %}{% include 'components/contact_page.html' %}{% endblock %}
+
+    </div>
+    {% block footer %}{% include 'components/footer.html' %}{% endblock %}
+</div>

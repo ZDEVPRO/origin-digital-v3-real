@@ -1,0 +1,340 @@
+{% load static %}
+{% load i18n %}
+
+
+<div id="main-wrapper">
+    <div class="site-wrapper-reveal">
+        <div class="processing-hero processing-hero-bg">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!--baseline-->
+                    <div class="col-lg-8 col-md-7">
+                        <div class="processing-hero-text wow move-up">
+                            <h6>{% trans 'Veb sayt yaratish xizmati - ORIGIN DIGITAL' %} </h6>
+                            <h1 class="font-weight--reguler mb-15">{% trans 'Arzon sifatli' %} <span
+                                    class="text-color-secondary">{% trans 'veb sayt yaratish xizmati' %}</span></h1>
+                            <p>{% trans 'O`zbekistonda eng arzon va sifatli Veb Sayt Yaratish xizmati. Biz sizga eng sifatli bo`lgan saytlarni hamyonbop narxga yaratib beramiz. Bizning maqsadimiz insonlarga hamyonbop narxda, tez, sifatli va qulay xizmat ko`rsatish.' %}</p>
+                            <div class="hero-button mt-30">
+                                <a href="{% url 'contact' %}" class="btn btn--secondary">{% trans 'Aloqa' %}</a>
+                                <a style="margin-left: 10px;" href="{% url 'services' %}"
+                                   class="ht-btn ht-btn-md">{% trans 'Xizmatlar' %} <span class="btn-icon"><i
+                                        class="far fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5">
+                        <div class="processing-hero-images-wrap wow move-up">
+                            <div class="processing-hero-images">
+                                <img class="img-fluid"
+                                     src="{% static 'assets/images/hero/slider-processing-slide-01-image-01.webp' %}"
+                                     alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============ Infotechno Hero End ============-->
+        <!--====================  Accordion area ====================-->
+        <div class="accordion-wrapper section-space--ptb_100">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="faq-wrapper faq-custom-col">
+
+                            <div class="section-title section-space--mb_40">
+                                <h6 class="section-sub-title mb-20">{% trans 'Biz haqimizda' %}</h6>
+                                <h3 class="heading">{% trans 'Eng ko`p beriladigan savollar.' %} <span
+                                        class="text-color-primary"> {% trans 'Savol javob.' %}</span>
+                                    {% trans 'Qanday ishlaymiz?' %}</h3>
+
+                            </div>
+
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn-link" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                {% trans 'Nega narxlar arzon?' %} <span> <i
+                                                    class="fas fa-chevron-down"></i>
+                                            <i class="fas fa-chevron-up"></i> </span>
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="show" aria-labelledby="headingOne"
+                                         data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>{% trans 'Haqiqatdan sifatga nisbatan narxlarimiz arzon. Sababi veb studiyamizda ortiqcha ishchi kuchi bo’lmaganli sabab, ortiqcha xarajatimiz ham yo’q. Shuning uchun narxlarni boshqalarga nisbatan arzon ushlash bizga ko’taradi.' %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn-link collapsed" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseTwo" aria-expanded="false"
+                                                    aria-controls="collapseTwo">
+                                                {% trans 'Kelajakda saytni o`zim tahrir qila olamanmi?' %}<span> <i
+                                                    class="fas fa-chevron-down"></i>
+                                            <i class="fas fa-chevron-up"></i> </span>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                         data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>{% trans 'Ha, albatta, sizga kontentni boshqarish tizimiga (adminkaga) kirish va ko’rsatmalar beriladi. Adminka qulay interfeysga ega, intuitiv darajada tushunarli va ma’lum bilimlarni talab qilmaydi. ' %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn-link collapsed" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
+                                                {% trans 'Sayt bitganidan keyin qo`llab-quvvatlab turasizlarmi?' %}
+                                                <span> <i
+                                                        class="fas fa-chevron-down"></i>
+                                            <i class="fas fa-chevron-up"></i> </span>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                         data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>{% trans 'Saytingizni bitirganimizdan so’ng, o’z holiga tashlab qo’ymay, bir yil davomida bepul, kunu-tun uzluksiz ishlab turishi va ximoyasiga javob beramiz. Bir yildan so’ng bu xizmatimiz oyiga/10$.' %} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="rv-video-section">
+
+                            <div class="ht-banner-01 ">
+                                <img class="img-fluid border-radus-5 animation_images one wow fadeInDown"
+                                     src="{% static 'assets/images/banners/home-processing-video-intro-slider-slide-01-image-02.webp' %}"
+                                     alt="">
+                            </div>
+
+                            <div class="ht-banner-02">
+                                <img class="img-fluid border-radus-5 animation_images two wow fadeInDown"
+                                     src="{% static 'assets/images/banners/home-processing-video-intro-slider-slide-01-image-03.webp' %}"
+                                     alt="">
+                            </div>
+
+                            <div class="main-video-box video-popup">
+                                <a class="video-link  mt-30">
+                                    <div class="single-popup-wrap">
+                                        <img class="img-fluid border-radus-5"
+                                             src="{% static 'assets/images/banners/home-processing-video-intro-slider-slide-01-image-01.webp' %}"
+                                             alt="">
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="ht-banner-03">
+                                <img class="img-fluid border-radus-5 animation_images three wow fadeInDown"
+                                     src="{% static 'assets/images/banners/home-processing-video-intro-slider-slide-01-image-04.webp' %}"
+                                     alt="">
+                            </div>
+
+                            <div class="ht-banner-04">
+                                <img class="img-fluid border-radus-5 animation_images four wow fadeInDown"
+                                     src="{% static 'assets/images/banners/home-processing-video-intro-slider-slide-01-image-05.webp' %}"
+                                     alt="">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--====================  Accordion area  ====================-->
+
+        {% block services_page %}{% include 'components/services_page.html' %}{% endblock %}
+
+        <!--=========== Computing Start ===============-->
+
+        <div class="processing-computing-area bg-gray-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="computing-info-box text-center">
+                            <h2>{% trans 'Savolingiz bormi?' %}</h2>
+                            <div class="section-under-heading text-center mt-30">{% trans 'Tortinmang, biz xech qaysi savolni javobsiz qoldirmaymiz!' %}
+                                <a href="{% url 'contact' %}">{% trans 'Savol berish.' %}</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--=========== Computing End ===============-->
+
+        {#        <!--====================  testimonial section ====================-->#}
+        {#        <div class="testimonial-slider-area bg-gray section-space--ptb_100">#}
+        {#            <div class="container">#}
+        {#                <div class="row">#}
+        {#                    <div class="col-lg-12">#}
+        {#                        <div class="section-title-wrap text-center section-space--mb_40">#}
+        {#                            <h6 class="section-sub-title mb-20">Mamnun mijozlar biz haqimizda</h6>#}
+        {#                            <h3 class="heading">Biz har bir <span#}
+        {#                                    class="text-color-primary"> Mijozni rozi qilamiz.</span></h3>#}
+        {#                        </div>#}
+        {#                        <div class="testimonial-slider">#}
+        {#                            <div class="swiper-container testimonial-slider__container">#}
+        {#                                <div class="swiper-wrapper testimonial-slider__wrapper">#}
+        {#                                    <div class="swiper-slide">#}
+        {#                                        <div class="testimonial-slider__one wow move-up">#}
+        {##}
+        {#                                            <div class="testimonial-slider--info">#}
+        {#                                                <div class="testimonial-slider__media">#}
+        {#                                                    <img src="{% static 'assets/images/testimonial/mitech-testimonial-avata-02-90x90.webp' %}"#}
+        {#                                                         class="img-fluid" alt="">#}
+        {#                                                </div>#}
+        {##}
+        {#                                                <div class="testimonial-slider__author">#}
+        {#                                                    <div class="testimonial-rating">#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                    </div>#}
+        {#                                                    <div class="author-info">#}
+        {#                                                        <h6 class="name">Abbie Ferguson</h6>#}
+        {#                                                        <span class="designation">Marketing</span>#}
+        {#                                                    </div>#}
+        {#                                                </div>#}
+        {#                                            </div>#}
+        {##}
+        {#                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT#}
+        {#                                                companies on more than 200 projects of our company, but @Mitech is one#}
+        {#                                                of the most impressive to me.#}
+        {#                                            </div>#}
+        {##}
+        {#                                        </div>#}
+        {#                                    </div>#}
+        {#                                    <div class="swiper-slide">#}
+        {#                                        <div class="testimonial-slider__one wow move-up">#}
+        {##}
+        {#                                            <div class="testimonial-slider--info">#}
+        {#                                                <div class="testimonial-slider__media">#}
+        {#                                                    <img src="{% static 'assets/images/testimonial/mitech-testimonial-avata-03-90x90.webp' %}"#}
+        {#                                                         class="img-fluid" alt="">#}
+        {#                                                </div>#}
+        {##}
+        {#                                                <div class="testimonial-slider__author">#}
+        {#                                                    <div class="testimonial-rating">#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                    </div>#}
+        {#                                                    <div class="author-info">#}
+        {#                                                        <h6 class="name">Monica Blews</h6>#}
+        {#                                                        <span class="designation">Web designer</span>#}
+        {#                                                    </div>#}
+        {#                                                </div>#}
+        {#                                            </div>#}
+        {##}
+        {#                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT#}
+        {#                                                companies on more than 200 projects of our company, but @Mitech is one#}
+        {#                                                of the most impressive to me.#}
+        {#                                            </div>#}
+        {##}
+        {#                                        </div>#}
+        {#                                    </div>#}
+        {#                                    <div class="swiper-slide">#}
+        {#                                        <div class="testimonial-slider__one wow move-up">#}
+        {##}
+        {#                                            <div class="testimonial-slider--info">#}
+        {#                                                <div class="testimonial-slider__media">#}
+        {#                                                    <img src="{% static 'assets/images/testimonial/mitech-testimonial-avata-04-90x90.webp' %}"#}
+        {#                                                         class="img-fluid" alt="">#}
+        {#                                                </div>#}
+        {##}
+        {#                                                <div class="testimonial-slider__author">#}
+        {#                                                    <div class="testimonial-rating">#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                    </div>#}
+        {#                                                    <div class="author-info">#}
+        {#                                                        <h6 class="name">Abbie Ferguson</h6>#}
+        {#                                                        <span class="designation">WEB DESIGNER</span>#}
+        {#                                                    </div>#}
+        {#                                                </div>#}
+        {#                                            </div>#}
+        {##}
+        {#                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT#}
+        {#                                                companies on more than 200 projects of our company, but @Mitech is one#}
+        {#                                                of the most impressive to me.#}
+        {#                                            </div>#}
+        {##}
+        {#                                        </div>#}
+        {#                                    </div>#}
+        {#                                    <div class="swiper-slide">#}
+        {#                                        <div class="testimonial-slider__one wow move-up">#}
+        {##}
+        {#                                            <div class="testimonial-slider--info">#}
+        {#                                                <div class="testimonial-slider__media">#}
+        {#                                                    <img src="{% static 'assets/images/testimonial/mitech-testimonial-avata-01-90x90.webp' %}"#}
+        {#                                                         class="img-fluid" alt="">#}
+        {#                                                </div>#}
+        {##}
+        {#                                                <div class="testimonial-slider__author">#}
+        {#                                                    <div class="testimonial-rating">#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                        <span class="fa fa-star"></span>#}
+        {#                                                    </div>#}
+        {#                                                    <div class="author-info">#}
+        {#                                                        <h6 class="name">Abbie Ferguson</h6>#}
+        {#                                                        <span class="designation">WEB DESIGNER</span>#}
+        {#                                                    </div>#}
+        {#                                                </div>#}
+        {#                                            </div>#}
+        {##}
+        {#                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT#}
+        {#                                                companies on more than 200 projects of our company, but @Mitech is one#}
+        {#                                                of the most impressive to me.#}
+        {#                                            </div>#}
+        {##}
+        {#                                        </div>#}
+        {#                                    </div>#}
+        {#                                </div>#}
+        {#                                <div class="swiper-pagination swiper-pagination-t01 section-space--mt_30"></div>#}
+        {#                            </div>#}
+        {#                        </div>#}
+        {#                    </div>#}
+        {#                </div>#}
+        {#            </div>#}
+        {#        </div>#}
+        {#        <!--====================  End of testimonial section  ====================-->#}
+
+        {% block contact_page %}{% include 'components/contact_page.html' %}{% endblock %}
+
+    </div>
+    {% block footer %}{% include 'components/footer.html' %}{% endblock %}
+</div>
+<a href="#" class="scroll-top" id="scroll-top">
+    <i class="arrow-top fal fa-long-arrow-up"></i>
+    <i class="arrow-bottom fal fa-long-arrow-up"></i>
+</a>

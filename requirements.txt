@@ -1,0 +1,7 @@
+django
+django_ckeditor
+django_mptt
+pillow
+whitenoise
+django_modeltranslation
+django-translation-manager

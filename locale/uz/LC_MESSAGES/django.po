@@ -1,0 +1,487 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-28 17:44+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: home/forms.py:11
+msgid "Ism *"
+msgstr ""
+
+#: home/forms.py:12
+msgid "Familya *"
+msgstr ""
+
+#: home/forms.py:13
+msgid "Telefon raqam *"
+msgstr ""
+
+#: home/forms.py:14
+msgid "Sizning xabaringiz *"
+msgstr ""
+
+#: home/templates/components/contact_page.html:10
+#, python-format
+msgid ""
+"Biznesingiz uchun veb saytga xoziroq buyurtma bering, Va bizdan kichik bir "
+"sovg`a 10%% chegirmaga ega bo`ling! "
+msgstr ""
+
+#: home/templates/components/contact_page.html:11
+#: home/templates/contact/contact.html:15
+msgid "Har bir mijozni rozi qilish bu bizning oliy maqsadimiz - ORIGIN DIGITAL"
+msgstr ""
+
+#: home/templates/components/contact_page.html:21
+msgid "Hoziroq qo`ng`iroq qiling!"
+msgstr ""
+
+#: home/templates/components/contact_page.html:24
+msgid "Biz bilan aloqa"
+msgstr ""
+
+#: home/templates/components/footer.html:9
+msgid "Barcha huquqlar himoyalangan."
+msgstr ""
+
+#: home/templates/components/header.html:34
+#: home/templates/components/header.html:148
+msgid "Asosiy"
+msgstr "Asosiy"
+
+#: home/templates/components/header.html:36
+#: home/templates/components/header.html:149 home/templates/index/index.html:19
+msgid "Xizmatlar"
+msgstr ""
+
+#: home/templates/components/header.html:38
+#: home/templates/components/header.html:150
+msgid "Narxlar"
+msgstr ""
+
+#: home/templates/components/header.html:40
+#: home/templates/components/header.html:151
+msgid "Bizning ishlar"
+msgstr ""
+
+#: home/templates/components/header.html:42
+#: home/templates/components/header.html:152 home/templates/index/index.html:17
+msgid "Aloqa"
+msgstr ""
+
+#: home/templates/components/header.html:58
+msgid "O`zbekcha"
+msgstr ""
+
+#: home/templates/components/header.html:66
+msgid "Ruscha"
+msgstr ""
+
+#: home/templates/components/services_page.html:13
+msgid "Nega aynan biz?"
+msgstr ""
+
+#: home/templates/components/services_page.html:13
+msgid "Nega ko`pchilik odamlar bizni tanlashadi?"
+msgstr ""
+
+#: home/templates/components/services_page.html:14
+msgid "Afzalliklarimiz"
+msgstr ""
+
+#: home/templates/components/services_page.html:35
+msgid "Moslashuvchan"
+msgstr ""
+
+#: home/templates/components/services_page.html:36
+msgid ""
+"Biz yaratgan veb saytlar moslashuvchan bo’ladi. Ya’ni planshet va mobil "
+"versiya ega. Buning uchun aloxida to’lov qilinmaydi."
+msgstr ""
+
+#: home/templates/components/services_page.html:54
+#: home/templates/pricing/pricing.html:61
+#: home/templates/pricing/pricing.html:90
+#: home/templates/pricing/pricing.html:119
+#: home/templates/pricing/pricing.html:150
+#: home/templates/pricing/pricing.html:182
+#: home/templates/pricing/pricing.html:213
+msgid "Adminka"
+msgstr ""
+
+#: home/templates/components/services_page.html:55
+msgid ""
+"Veb saytingiz qulay va sodda admin panelga ega bo’ladi bu esa o’z o’rnida "
+"sizga, saytga kirib boshqarishingizga imkon beradi."
+msgstr ""
+
+#: home/templates/components/services_page.html:73
+msgid "Ximoya"
+msgstr ""
+
+#: home/templates/components/services_page.html:74
+msgid ""
+"Bizning veb saytlar zamonaviy antivirus va fayrvollar bilan himoyalangan "
+"bo’lib, spambot va hujumlarga bardosh bera oladi."
+msgstr ""
+
+#: home/templates/components/services_page.html:92
+msgid "Monitoring 24/7"
+msgstr ""
+
+#: home/templates/components/services_page.html:93
+msgid ""
+"Veb saytingizni uzluksiz ishlab turishi uchun, 24 soat davomida onlayn "
+"avtomatik tarzda kuzatib turiladi."
+msgstr ""
+
+#: home/templates/components/services_page.html:111
+msgid "Domen va xosting"
+msgstr ""
+
+#: home/templates/components/services_page.html:112
+msgid ""
+"Domen va hosting yugur-yugur, bosh og’riqlarini unuting. Bizda domen UZ va "
+"hosting 6 oyga bepul (keyin $10/oyiga)"
+msgstr ""
+
+#: home/templates/components/services_page.html:130
+msgid "Noyob"
+msgstr ""
+
+#: home/templates/components/services_page.html:131
+msgid ""
+"Xar bir yaratgan saytimizni dizayni noyob bo’ladi va boshqa saytlardan "
+"ajralib turadi. Bitta dizayn — bitta sayt!"
+msgstr ""
+
+#: home/templates/contact/base.html:8
+msgid "Aloqa - ORIGIN DIGITAL"
+msgstr ""
+
+#: home/templates/contact/contact.html:13 home/templates/index/index.html:173
+msgid "Savolingiz bormi?"
+msgstr ""
+
+#: home/templates/contact/contact.html:13
+msgid ""
+"U holda quyidagi bo`limlarni to`ldiring, va bizga yuboring. Sizga tezda "
+"javob beramiz!"
+msgstr ""
+
+#: home/templates/contact/contact.html:38
+msgid "Xabarni yuborish"
+msgstr ""
+
+#: home/templates/index/base.html:4 home/templates/index/base.html:15
+#: home/templates/index/base.html:18 home/templates/projects/base.html:4
+#: home/templates/projects/base.html:15 home/templates/projects/base.html:18
+msgid "uz"
+msgstr ""
+
+#: home/templates/index/base.html:8 home/templates/projects/base.html:8
+msgid "Arzon sifatli veb sayt yaratish xizmati - ORIGIN DIGITAL"
+msgstr ""
+
+#: home/templates/index/base.html:10 home/templates/index/index.html:15
+#: home/templates/projects/base.html:10
+msgid ""
+"O`zbekistonda eng arzon va sifatli Veb Sayt Yaratish xizmati. Biz sizga eng "
+"sifatli bo`lgan saytlarni hamyonbop narxga yaratib beramiz. Bizning "
+"maqsadimiz insonlarga hamyonbop narxda, tez, sifatli va qulay xizmat "
+"ko`rsatish."
+msgstr ""
+
+#: home/templates/index/base.html:11 home/templates/projects/base.html:11
+msgid "Zikirillo Ozodjonov"
+msgstr ""
+
+#: home/templates/index/base.html:13 home/templates/projects/base.html:13
+msgid ""
+"web, site, veb, sayt, origin, digital, yaratish, xizmati, uzbekistan, arzon, "
+"sifatli, kontent"
+msgstr ""
+
+#: home/templates/index/index.html:12
+msgid "Veb sayt yaratish xizmati - ORIGIN DIGITAL"
+msgstr ""
+
+#: home/templates/index/index.html:13
+msgid "Arzon sifatli"
+msgstr ""
+
+#: home/templates/index/index.html:14
+msgid "veb sayt yaratish xizmati"
+msgstr ""
+
+#: home/templates/index/index.html:45
+msgid "Biz haqimizda"
+msgstr ""
+
+#: home/templates/index/index.html:46
+msgid "Eng ko`p beriladigan savollar."
+msgstr ""
+
+#: home/templates/index/index.html:47
+msgid "Savol javob."
+msgstr ""
+
+#: home/templates/index/index.html:48
+msgid "Qanday ishlaymiz?"
+msgstr ""
+
+#: home/templates/index/index.html:59
+msgid "Nega narxlar arzon?"
+msgstr ""
+
+#: home/templates/index/index.html:69
+msgid ""
+"Haqiqatdan sifatga nisbatan narxlarimiz arzon. Sababi veb studiyamizda "
+"ortiqcha ishchi kuchi bo’lmaganli sabab, ortiqcha xarajatimiz ham yo’q. "
+"Shuning uchun narxlarni boshqalarga nisbatan arzon ushlash bizga ko’taradi."
+msgstr ""
+
+#: home/templates/index/index.html:79
+msgid "Kelajakda saytni o`zim tahrir qila olamanmi?"
+msgstr ""
+
+#: home/templates/index/index.html:88
+msgid ""
+"Ha, albatta, sizga kontentni boshqarish tizimiga (adminkaga) kirish va "
+"ko’rsatmalar beriladi. Adminka qulay interfeysga ega, intuitiv darajada "
+"tushunarli va ma’lum bilimlarni talab qilmaydi. "
+msgstr ""
+
+#: home/templates/index/index.html:98
+msgid "Sayt bitganidan keyin qo`llab-quvvatlab turasizlarmi?"
+msgstr ""
+
+#: home/templates/index/index.html:108
+msgid ""
+"Saytingizni bitirganimizdan so’ng, o’z holiga tashlab qo’ymay, bir yil "
+"davomida bepul, kunu-tun uzluksiz ishlab turishi va ximoyasiga javob "
+"beramiz. Bir yildan so’ng bu xizmatimiz oyiga/10$."
+msgstr ""
+
+#: home/templates/index/index.html:174
+msgid "Tortinmang, biz xech qaysi savolni javobsiz qoldirmaymiz!"
+msgstr ""
+
+#: home/templates/index/index.html:175
+msgid "Savol berish."
+msgstr ""
+
+#: home/templates/pricing/base.html:8
+msgid "Narxlar - ORIGIN DIGITAL"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:13
+msgid "Veb sayt yaratish xizmati narxlari"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:14
+msgid "Siz uchun hamyonbop narxdagi"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:15
+msgid "Veb Saytlar"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:30
+msgid "Kichik loyihalar"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:34
+msgid "Katta loyihalar"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:55
+#: home/templates/pricing/pricing.html:84
+#: home/templates/pricing/pricing.html:113
+#: home/templates/pricing/pricing.html:144
+#: home/templates/pricing/pricing.html:176
+#: home/templates/pricing/pricing.html:207
+msgid "Malumot olish"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:58
+#: home/templates/pricing/pricing.html:87
+#: home/templates/pricing/pricing.html:116
+#: home/templates/pricing/pricing.html:147
+#: home/templates/pricing/pricing.html:179
+#: home/templates/pricing/pricing.html:210
+msgid "Domen UZ"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:59
+#: home/templates/pricing/pricing.html:88
+#: home/templates/pricing/pricing.html:117
+#: home/templates/pricing/pricing.html:148
+#: home/templates/pricing/pricing.html:180
+#: home/templates/pricing/pricing.html:211
+msgid "Xosting 25 GB"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:60
+#: home/templates/pricing/pricing.html:89
+#: home/templates/pricing/pricing.html:118
+#: home/templates/pricing/pricing.html:149
+#: home/templates/pricing/pricing.html:181
+#: home/templates/pricing/pricing.html:212
+msgid "SSL sertifikat"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:62
+#: home/templates/pricing/pricing.html:91
+#: home/templates/pricing/pricing.html:120
+#: home/templates/pricing/pricing.html:151
+#: home/templates/pricing/pricing.html:183
+#: home/templates/pricing/pricing.html:214
+msgid "Ximoya 24/7"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:63
+msgid "Muddati 3 kun"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:64
+msgid "Sahifalar soni 1 ta"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:72
+#: home/templates/pricing/pricing.html:164
+msgid "Eng yaxshi"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:75
+msgid "SAYT KATALOG"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:92
+msgid "Muddati 5-10 kun"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:93
+msgid "Sahifalar soni 3-6 ta"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:94
+#: home/templates/pricing/pricing.html:154
+#: home/templates/pricing/pricing.html:188
+#: home/templates/pricing/pricing.html:217
+msgid "Tillar UZ/RU/EN"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:95
+#: home/templates/pricing/pricing.html:155
+#: home/templates/pricing/pricing.html:189
+#: home/templates/pricing/pricing.html:218
+msgid "Dizayn darajasi"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:96
+#: home/templates/pricing/pricing.html:156
+#: home/templates/pricing/pricing.html:190
+#: home/templates/pricing/pricing.html:219
+msgid "Yuqori"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:104
+msgid "SAYT VIZITKA"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:121
+msgid "Muddati 3-7 kun"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:122
+msgid "Sahifalar soni 2-4 ta"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:135
+msgid "Biznes"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:152
+msgid "Sahifalar soni 5-10 ta"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:153
+#: home/templates/pricing/pricing.html:216
+msgid "Muddati 15 kun"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:167
+msgid "Onlayn Do`kon"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:184
+msgid "Sahifalar soni 20 ta"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:185
+msgid "Muddati 20 kun"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:186
+msgid "Xarid Savati"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:187
+msgid "Mijozlarni ro`yxatdan o`tkazish"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:198
+msgid "Katta Biznes"
+msgstr ""
+
+#: home/templates/pricing/pricing.html:215
+msgid "Sahifalar soni 15 ta"
+msgstr ""
+
+#: home/templates/projects/projects.html:12
+msgid "Bizning oxirgi"
+msgstr ""
+
+#: home/templates/projects/projects.html:13
+msgid "ishlarimiz."
+msgstr ""
+
+#: home/templates/projects/projects.html:33
+msgid "Veb sayt"
+msgstr ""
+
+#: home/templates/projects/projects.html:35
+msgid "Veb saytni ko`rish"
+msgstr ""
+
+#: home/templates/services/base.html:8
+msgid "Xizmatlar - ORIGIN DIGITAL"
+msgstr ""
+
+#: home/views.py:45
+msgid ""
+"Xabaringiz qabul qilindi! Sizga qisqa fursat ichida javob beramiz. Raxmat!"
+msgstr ""
+
+#: origin_digital/settings.py:108
+msgid "Russian"
+msgstr ""
+
+#: origin_digital/settings.py:109
+msgid "Uzbek"
+msgstr ""

@@ -1,0 +1,9 @@
+{% load static %}
+
+{% if messages %}
+    <div style="text-align: center;" class="ht-message-box style-success  mb-30" role="alert">
+        {% for message in messages %}
+            <span class="icon"><i class="far fa-check-circle"></i></span> {{ message }}
+        {% endfor %}
+    </div>
+{% endif %}

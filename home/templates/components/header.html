@@ -1,0 +1,167 @@
+{% load static %}
+{% load i18n %}
+
+<div class="preloader-activate preloader-active open_tm_preloader">
+    <div class="preloader-area-wrap">
+        <div class="spinner d-flex justify-content-center align-items-center h-100">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+</div>
+
+<div class="header-area">
+    <div class="header-bottom-wrap header-sticky bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header position-relative">
+                        <div class="header__logo">
+                            <a href="{% url 'index' %}">
+                                {% for rs in logo_site %}
+                                    <img style="margin-bottom: -5px;" src="{{ rs.image.url }}" width="160" height="48"
+                                         class="img-fluid" alt="origin-digital-logo">
+                                {% endfor %}
+                            </a>
+                        </div>
+
+                        <div class="header-right">
+
+                            <!-- navigation menu -->
+                            <div class="header__navigation menu-style-three d-none d-xl-block">
+                                <nav class="navigation-menu">
+                                    <ul>
+                                        <li {% if request.path == '/' or request.path == '/ru/' %}
+                                            class="active" {% else %} {% endif %}><a
+                                                href="{% url 'index' %}"><span>{% trans 'Asosiy' %}</span></a></li>
+                                        <li {% if request.path == '/services/' or request.path == '/ru/services/' %}
+                                            class="active" {% else %} {% endif %}>
+                                            <a href="{% url 'services' %}"><span>{% trans 'Xizmatlar' %}</span></a></li>
+                                        <li {% if request.path == '/pricing/' or request.path == '/ru/pricing/' %}
+                                            class="active" {% else %} {% endif %} >
+                                            <a href="{% url 'pricing' %}"><span>{% trans 'Narxlar' %}</span></a></li>
+                                        <li {% if request.path == '/projects/' or request.path == '/ru/projects/' %}
+                                            class="active" {% else %} {% endif %}>
+                                            <a href="{% url 'projects' %}"><span>{% trans 'Bizning ishlar' %}</span></a>
+                                        </li>
+                                        <li {% if request.path == '/contact/' or request.path == '/ru/contact/' %}
+                                            class="active" {% else %} {% endif %}>
+                                            <a href="{% url 'contact' %}"><span>{% trans 'Aloqa' %}</span></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <div class="header-right-box">
+                                <div class="header-right-inner" id="hidden-icon-wrapper">
+                                    <div class="language-menu">
+                                        <ul>
+                                            <li>
+                                                {% if request.path == '/' or request.path == '/services/' or request.path == '/pricing/' or request.path == '/projects/' or request.path == '/contact/' %}
+                                                    <a class="">
+                                                        <img class="ls-flag"
+                                                             src="{% static 'assets/images/flags/uz.png' %}"
+                                                             alt="uz"
+                                                             title="O'zbekcha">
+                                                        <span class="wpml-ls-native">{% trans 'O`zbekcha' %}</span>
+                                                    </a>
+                                                {% elif request.path == '/ru/' or request.path == '/ru/services/' or request.path == '/ru/pricing/' or request.path == '/ru/projects/' or  request.path == '/ru/contact/' %}
+                                                    <a class="">
+                                                        <img class="ls-flag"
+                                                             src="{% static 'assets/images/flags/ru.png' %}"
+                                                             alt="ru"
+                                                             title="Ruscha">
+                                                        <span class="wpml-ls-native">{% trans 'Ruscha' %}</span>
+                                                    </a>
+                                                {% endif %}
+                                                <ul class="ls-sub-menu">
+                                                    <li class="">
+                                                        <a {% if request.path == '/' or request.path == '/ru/' %}
+                                                            href="/ru/" {% elif request.path == '/services/' or request.path == '/ru/services/' %}
+                                                            href="/ru/services/" {% elif request.path == '/pricing/' or request.path == '/ru/pricing/' %}
+                                                            href="/ru/pricing/" {% elif request.path == '/projects/' or request.path == '/ru/projects/' %}
+                                                            href="/ru/projects/" {% elif request.path == '/contact/' or request.path == '/ru/contact/' %}
+                                                            href="/ru/contact/" {% endif %}>
+                                                            <img class="ls-flag"
+                                                                 src="{% static 'assets/images/flags/ru.png' %}"
+                                                                 alt="en" title="russian"><span class="wpml-ls-native">Русский</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a {% if request.path == '/ru/' or request.path == '/' %}
+                                                            href="/" {% elif request.path == '/ru/services/' or request.path == '/services/' %}
+                                                            href="/services/" {% elif request.path == '/pricing/' or request.path == '/ru/pricing/' %}
+                                                            href="/pricing/" {% elif request.path == '/projects/' or request.path == '/ru/projects/' %}
+                                                            href="/projects/" {% elif request.path == '/contact/' or request.path == '/ru/contact/' %}
+                                                            href="/contact/" {% endif %}class="">
+                                                            <img class="wpml-ls-flag"
+                                                                 src="{% static 'assets/images/flags/uz.png' %}"
+                                                                 alt="de"
+                                                                 title="uzbekcha"><span
+                                                                class="wpml-ls-native">O'zbekcha</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
+                                    <a href="javascript:void(0)">
+                                        <i class="far fa-ellipsis-h-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- mobile menu -->
+                            <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
+                                <i></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mobile-menu-overlay" id="mobile-menu-overlay">
+    <div class="mobile-menu-overlay__inner">
+        <div class="mobile-menu-overlay__header">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-8">
+                        <!-- logo -->
+                        <div class="logo">
+                             {% for rs in logo_site %}
+                            <a href="{% url 'index' %}">
+                                <img src="{{ rs.image.url }}" class="img-fluid"
+                                     alt="origin-digital-logo">
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-4">
+                        <div class="mobile-menu-content text-end">
+                            <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu-overlay__body">
+            <nav class="offcanvas-navigation">
+                <ul>
+                    <li class="has-children"><a href="{% url 'index' %}">{% trans 'Asosiy' %}</a></li>
+                    <li class="has-children"><a href="{% url 'services' %}">{% trans 'Xizmatlar' %}</a></li>
+                    <li class="has-children"><a href="{% url 'pricing' %}">{% trans 'Narxlar' %}</a></li>
+                    <li class="has-children"><a href="{% url 'projects' %}">{% trans 'Bizning ishlar' %}</a></li>
+                    <li class="has-children"><a href="{% url 'contact' %}">{% trans 'Aloqa' %}</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

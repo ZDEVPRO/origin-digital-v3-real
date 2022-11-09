@@ -1,0 +1,9 @@
+{% load static %}
+
+<div id="main-wrapper">
+    <div class="site-wrapper-reveal">
+        {% block services_page %}{% include 'components/services_page.html' %}{% endblock %}
+        {% block contact_page %}{% include 'components/contact_page.html' %}{% endblock %}
+    </div>
+    {% block footer %}{% include 'components/footer.html' %}{% endblock %}
+</div>

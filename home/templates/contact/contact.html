@@ -1,0 +1,52 @@
+{% load static %}
+{% load i18n %}
+
+<div id="main-wrapper">
+    <div class="site-wrapper-reveal">
+        <!--====================  Conact us Section Start ====================-->
+        <div class="contact-us-section-wrappaer section-space--pt_100 section-space--pb_70">
+            <div class="container">
+                <div class="row align-items-center">
+                    {% block succes_message %}{% include 'components/sucess_message.html' %}{% endblock %}
+                    <div class="col-lg-6 col-lg-6">
+                        <div class="conact-us-wrap-one mb-30">
+                            <h3 class="heading"><span class="text-color-primary">{% trans 'Savolingiz bormi?' %} </span> {% trans 'U holda quyidagi bo`limlarni to`ldiring, va bizga yuboring. Sizga tezda javob beramiz!' %}
+                            </h3>
+                            <div class="sub-heading">{% trans 'Har bir mijozni rozi qilish bu bizning oliy maqsadimiz - ORIGIN DIGITAL' %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-6">
+                        <div class="contact-form-wrap">
+                            <form action="{% url 'contact' %}" method="post"> {% csrf_token %}
+                                <div class="contact-form">
+                                    <div class="contact-input">
+                                        <div class="contact-inner">
+                                            {{ form.first_name }}
+                                        </div>
+                                        <div class="contact-inner">
+                                            {{ form.last_name }}
+                                        </div>
+                                    </div>
+                                    <div class="contact-inner">
+                                        {{ form.phone }}
+                                    </div>
+                                    <div class="contact-inner contact-message">
+                                        {{ form.message }}
+                                    </div>
+                                    <div class="submit-btn mt-20">
+                                        <button class="ht-btn ht-btn-md" type="submit">{% trans 'Xabarni yuborish' %}</button>
+                                        <p class="form-messege"></p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  Conact us Section End  ====================-->
+        {% block contact_page %}{% include 'components/contact_page.html' %}{% endblock %}
+    </div>
+    {% block footer %}{% include 'components/footer.html' %}{% endblock %}
+</div>
